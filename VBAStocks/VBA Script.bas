@@ -31,7 +31,7 @@ Dim WS As Worksheet
          ' OP
          Open_Price = Cells(2, Column + 2).Value
          
-         For i = 2 To LastRow\
+         For i = 2 To LastRow
          
          ' Compare and Contrast Ticker Names
             If Cells(i + 1, Column).Value <> Cells(i, Column).Value Then
@@ -73,7 +73,7 @@ Dim WS As Worksheet
         
             
             Else
-                Volume = Volume + Cells(i, Column + 6).Value\
+                Volume = Volume + Cells(i, Column + 6).Value
             
             End If
         
